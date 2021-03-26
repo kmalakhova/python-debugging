@@ -8,7 +8,7 @@ class Order:
 
     def calculate_total(self):
         total = 0
-        for i in range(1, len(self.products)):
+        for i in range(0, len(self.products)):
             total += self.products[i].price
         
         return total
